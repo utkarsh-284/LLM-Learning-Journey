@@ -15,8 +15,9 @@ Here, I will share my notes, projects, and implementations as I progress through
 
 **Projects & Learnings:**
 
-*   **Transformers from Scratch:** This project implements the Transformer architecture from the ground up, as detailed in the seminal paper "Attention Is All You Need". The implementation is done using TensorFlow and provides a detailed, step-by-step guide to understanding the core components of a Transformer.
+*   **Transformers from Scratch:** This project implements the Transformer architecture from the ground up, as detailed in the seminal paper "Attention Is All You Need". The implementation is done using TensorFlow and provides a detailed, step-by-step guide to understanding the core components of a Transformer. This notebook serves as a practice guide for the concepts covered in the [Sequence Models](https://www.coursera.org/learn/nlp-sequence-models/home/module/4) course from the DeepLearning.AI Natural Language Processing Specialization on Coursera.
     *   **Jupyter Notebook:** [Transformers-from-scratch.ipynb](Transformers-from-scratch.ipynb)
+    *   **Requirements:** The `requirements.txt` file in the root of the repository contains the necessary packages for this notebook.
     *   **Key Concepts Covered:**
         *   Positional Encodings
         *   Masking (Padding and Look-Ahead)
