@@ -16,7 +16,7 @@ Here, I will share my notes, projects, and implementations as I progress through
 **Projects & Learnings:**
 
 *   **Transformers from Scratch:** This project implements the Transformer architecture from the ground up, as detailed in the seminal paper "Attention Is All You Need". The implementation is done using TensorFlow and provides a detailed, step-by-step guide to understanding the core components of a Transformer. This notebook serves as a practice guide for the concepts covered in the [Sequence Models](https://www.coursera.org/learn/nlp-sequence-models/home/module/4) course from the DeepLearning.AI Natural Language Processing Specialization on Coursera.
-    *   **Jupyter Notebook:** [Transformers-from-scratch.ipynb](Phase 1/Transformers-from-scratch.ipynb)
+    *   **Jupyter Notebook:** [Transformers-from-scratch.ipynb](/Phase_1/Transformers-from-scratch.ipynb)
     *   **Requirements:** The `requirements.txt` file in the `Phase 1` folder contains the necessary packages for this notebook.
     *   **Key Concepts Covered:**
         *   Positional Encodings
@@ -36,7 +36,7 @@ Here, I will share my notes, projects, and implementations as I progress through
 **Projects & Learnings:**
 
 *   **Mini-Transformer for Financial Sentiment Analysis:** This project involves building a smaller version of the Transformer model, using only the Encoder layer from the previously developed `transformers_model.py`, to perform sentiment analysis on financial news headlines. The model is trained on the `financial_phrasebank` dataset from HuggingFace.
-    *   **Jupyter Notebook:** [Mini-Transformer.ipynb](Phase 1/Mini-Transformer.ipynb)
+    *   **Jupyter Notebook:** [Mini-Transformer.ipynb](/Phase_1/Mini-Transformer.ipynb)
     *   **Key Concepts Covered:**
         *   Using a pre-built Transformer Encoder.
         *   Sentiment analysis as a classification task.
