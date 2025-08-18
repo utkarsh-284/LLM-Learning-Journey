@@ -6,7 +6,7 @@ Here, I will share my notes, projects, and implementations as I progress through
 
 ## Phase 1: Deep LLM Foundations (Weeks 1-4)
 
-### Week 1-2: Advanced Transformer Architecture & Mathematics
+### Week 1: Advanced Transformer Architecture & Mathematics
 
 **Learning Objectives:**
 *   Master transformer architecture from first principles
@@ -16,8 +16,8 @@ Here, I will share my notes, projects, and implementations as I progress through
 **Projects & Learnings:**
 
 *   **Transformers from Scratch:** This project implements the Transformer architecture from the ground up, as detailed in the seminal paper "Attention Is All You Need". The implementation is done using TensorFlow and provides a detailed, step-by-step guide to understanding the core components of a Transformer. This notebook serves as a practice guide for the concepts covered in the [Sequence Models](https://www.coursera.org/learn/nlp-sequence-models/home/module/4) course from the DeepLearning.AI Natural Language Processing Specialization on Coursera.
-    *   **Jupyter Notebook:** [Transformers-from-scratch.ipynb](Transformers-from-scratch.ipynb)
-    *   **Requirements:** The `requirements.txt` file in the root of the repository contains the necessary packages for this notebook.
+    *   **Jupyter Notebook:** [Phase 1/Transformers-from-scratch.ipynb](Phase 1/Transformers-from-scratch.ipynb)
+    *   **Requirements:** The `requirements.txt` file in the `Phase 1` folder contains the necessary packages for this notebook.
     *   **Key Concepts Covered:**
         *   Positional Encodings
         *   Masking (Padding and Look-Ahead)
@@ -25,6 +25,24 @@ Here, I will share my notes, projects, and implementations as I progress through
         *   Encoder (Encoder Layer and Full Encoder)
         *   Decoder (Decoder Layer and Full Decoder)
         *   Transformer Assembly
+
+### Week 2: Building a Mini-Transformer for Financial Sentiment Analysis
+
+**Learning Objectives:**
+*   Implement an Encoder-only Transformer model for a classification task.
+*   Apply the model to a real-world financial dataset.
+*   Evaluate the model's performance and identify areas for improvement.
+
+**Projects & Learnings:**
+
+*   **Mini-Transformer for Financial Sentiment Analysis:** This project involves building a smaller version of the Transformer model, using only the Encoder layer from the previously developed `transformers_model.py`, to perform sentiment analysis on financial news headlines. The model is trained on the `financial_phrasebank` dataset from HuggingFace.
+    *   **Jupyter Notebook:** [Phase 1/Mini-Transformer.ipynb](Phase 1/Mini-Transformer.ipynb)
+    *   **Key Concepts Covered:**
+        *   Using a pre-built Transformer Encoder.
+        *   Sentiment analysis as a classification task.
+        *   Data preprocessing for financial text.
+        *   Training and evaluating a Transformer-based model.
+        *   Analyzing model performance and suggesting improvements.
 
 ### Week 3-4: Pre-training, Fine-tuning & Transfer Learning
 
