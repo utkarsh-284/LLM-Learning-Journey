@@ -1,5 +1,8 @@
 # My AI/LLM Learning Journey for Finance & Consultancy
 
+![The Transformer Architecture](./The_Transformer-%20model_architecture..png)
+*The Transformer Architecture. This diagram, from the original (["Attention Is All You Need" paper by Vaswani et al. (2017)](https://arxiv.org/abs/1706.03762)), illustrates the key components of the Transformer model, including the Encoder and Decoder stacks, Multi-Head Attention layers, and Positional Encoding.*
+
 This repository documents my learning journey into the world of AI and Large Language Models (LLMs), with a specific focus on applications in Finance and Consultancy. The structure of this journey is based on the "AI/LLM Learning Plan for Finance & Consultancy Roles" document.
 
 Here, I will share my notes, projects, and implementations as I progress through the learning plan.
@@ -16,7 +19,7 @@ Here, I will share my notes, projects, and implementations as I progress through
 **Projects & Learnings:**
 
 *   **Transformers from Scratch:** This project implements the Transformer architecture from the ground up, as detailed in the seminal paper "Attention Is All You Need". The implementation is done using TensorFlow and provides a detailed, step-by-step guide to understanding the core components of a Transformer. This notebook serves as a practice guide for the concepts covered in the [Sequence Models](https://www.coursera.org/learn/nlp-sequence-models/home/module/4) course from the DeepLearning.AI Natural Language Processing Specialization on Coursera.
-    *   **Jupyter Notebook:** [Transformers-from-scratch.ipynb](/Phase_1/Transformers-from-scratch.ipynb)
+    *   **Jupyter Notebook:** [Transformers-from-scratch.ipynb](/Phase_1/Transformers-from-scratch.ipynb:  )
     *   **Requirements:** The `requirements.txt` file in the `Phase 1` folder contains the necessary packages for this notebook.
     *   **Key Concepts Covered:**
         *   Positional Encodings
