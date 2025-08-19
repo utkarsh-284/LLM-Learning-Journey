@@ -1,6 +1,7 @@
 # My AI/LLM Learning Journey for Finance & Consultancy
 
 ![The Transformer Architecture](/The%20Transformer-%20model%20architecture..png)
+
 *The Transformer Architecture. This diagram, from the original (["Attention Is All You Need" paper by Vaswani et al. (2017)](https://arxiv.org/abs/1706.03762)), illustrates the key components of the Transformer model, including the Encoder and Decoder stacks, Multi-Head Attention layers, and Positional Encoding.*
 
 This repository documents my learning journey into the world of AI and Large Language Models (LLMs), with a specific focus on applications in Finance and Consultancy. The structure of this journey is based on the "AI/LLM Learning Plan for Finance & Consultancy Roles" document.
