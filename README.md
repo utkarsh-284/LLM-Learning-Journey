@@ -10,7 +10,7 @@ Here, I will share my notes, projects, and implementations as I progress through
 
 ## Phase 1: Deep LLM Foundations (Weeks 1-4)
 
-### Week 1: Advanced Transformer Architecture & Mathematics
+### Week 1: Transformer Architecture Mastery
 
 **Learning Objectives:**
 *   Master transformer architecture from first principles
@@ -30,7 +30,7 @@ Here, I will share my notes, projects, and implementations as I progress through
         *   Decoder (Decoder Layer and Full Decoder)
         *   Transformer Assembly
 
-### Week 2: Building a Mini-Transformer for Financial Sentiment Analysis
+### Week 2: Build a Mini-Transformer
 
 **Learning Objectives:**
 *   Implement an Encoder-only Transformer model for a classification task.
@@ -48,7 +48,7 @@ Here, I will share my notes, projects, and implementations as I progress through
         *   Training and evaluating a Transformer-based model.
         *   Analyzing model performance and suggesting improvements.
 
-### Week 3-4: Pre-training, Fine-tuning & Transfer Learning
+### Week 3: Fine-tuning Mastery
 
 **Learning Objectives:**
 *   Understand different pre-training objectives (MLM, CLM, etc.)
@@ -56,7 +56,27 @@ Here, I will share my notes, projects, and implementations as I progress through
 *   Learn about parameter-efficient fine-tuning (LoRA, Adapters)
 
 **Projects & Learnings:**
-*   (Add your notes and project links here)
+
+*   **Fine-tuning BERT for Financial Text Classification:** This project explores two methods for fine-tuning a pre-trained BERT model for a financial sentiment analysis task: full fine-tuning and Parameter-Efficient Fine-Tuning (PEFT) using Low-Rank Adaptation (LoRA).
+    *   **Jupyter Notebook:** [Fine_tune_BERT.ipynb](/Phase_1/Fine-tuning/Fine_tune_BERT.ipynb)
+    *   **Performance Comparison Report:** [performance_comparison_report.md](/Phase_1/Fine-tuning/performance_comparison_report.md)
+    *   **Key Concepts Covered:**
+        *   Full fine-tuning of a pre-trained BERT model.
+        *   Parameter-Efficient Fine-Tuning (PEFT) with LoRA.
+        *   Comparison of performance, training time, and trainable parameters between the two methods.
+        *   Cost analysis of the two fine-tuning approaches.
+    *   **Results:** The project demonstrates that LoRA can achieve performance comparable to full fine-tuning with significantly fewer trainable parameters, leading to faster training times and lower computational costs. The following image summarizes the comparison:
+        *   ![Financial BERT Comparison](/Phase_1/Fine-tuning/financial_bert_comparison.png)
+
+### Week 4: Advanced Fine-tuning Project
+
+**Learning Objectives:**
+* Apply fine-tuning to complex financial NLP task
+* Master evaluation metrics for NLP models
+* Understand overfitting prevention in fine-tuning
+
+**Projects & Learnings:**
+* (Add your notes and project links here)
 
 ## Phase 2: Specialized NLP for Finance (Weeks 5-8)
 
